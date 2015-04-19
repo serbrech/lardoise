@@ -2,7 +2,7 @@
   var $ = jQuery;
   var resize_header = function () {
     var h = $(window).height();
-    $("header-outer").height(h);
+    $(".header-outer").height(h);
   }
 
   $(function(){
