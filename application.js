@@ -7,7 +7,7 @@
 
   $(function(){
     resize_header();
-    $(document).resize(function(){
+    $(window).resize(function(){
       resize_header();
     });
   });
