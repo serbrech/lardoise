@@ -1,5 +1,4 @@
-(function() {
-  var $ = jQuery;
+(function($) {
   var resize_header = function () {
     var h = $(window).height();
     $(".header-outer").height(h);
@@ -11,4 +10,4 @@
       resize_header();
     });
   });
-})();
+})(jQuery);
